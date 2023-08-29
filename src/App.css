@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+.logo{
+  float: left;
+  position: fixed;
+  display: flex;
+  /* height: 200px; */
+  width: 8%;  
+  z-index: 5;
+  left: 20px;
+  top: 15px;
+}
+
+/* .App-header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+} */
+
+h1{
+  font-family: 'Open Sans Hebrew Condensed', serif;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, #ff8c00, #ffd700);
+  font-size: 7em;
+  
+}
+h2{
+  color: #ffd700;
+  font-family: 'Open Sans Hebrew Condensed', serif;
+  font-size: 4em;
+}
+#description, #photos, #videos, #contact {
+  margin: 20px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.bg-gold {
+  background-color: #ffd700;
+}
+
+.bg-orange {
+  background-color: #ff8c00;
+}
+
+.btn-dark {
+  background-image: linear-gradient(to top, #ff8c00, #ffd700);
+  border-color: #ffd700;
+  color: #000;
+}
+
+.btn-dark:hover{
+  background-image: none;
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+.banner{
+  background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
+  background-position: top;
+  user-select: none;
+  height: 800px;
+}
+
+.mypopup1 {
+  bottom: 100px !important;
+  position: fixed !important; 
+  /* You could also try position: fixed !important; here
+  if the element should be fixed by screen position
+  rather than containing element position */
+  left: 22px !important;
+  top: auto !important;
+  z-index: 5;
+}
+.mypopup2 {
+  bottom: 40px !important;
+  left: 22px;
+  position: fixed !important; 
+  /* You could also try position: fixed !important; here
+  if the element should be fixed by screen position
+  rather than containing element position */
+  top: auto !important;
+  z-index: 5;
+}
+
+
+/* slideshow test */
+.slider{
+  width:90%;
+  height:fit-content;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: 20px auto;
+}
+#imgdiv{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+img.iimg{
+  max-width:100%;
+  max-height:100%;
+  height: auto;
+  width: auto;
+}
+.mylogo{
+  animation: rotation 3s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media only screen  and (max-device-width: 1000px) and (orientation: portrait) {
+
+
+  .logo{
+    float: left;
+    position: fixed;
+    display: flex;
+    /* height: 200px; */
+    height: 10%;  
+    width: auto;
+    z-index: 5;
+    left: 20px;
+    top: 15px;
+  }
+  .banner {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
+    background-position: top;
+    user-select: none;
+    height: 600px;
+    background-position-x: 990px;
+
+  }
+
+}
