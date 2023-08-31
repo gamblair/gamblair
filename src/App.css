@@ -32,11 +32,7 @@ h1{
   font-size: 7em;
   
 }
-h2{
-  color: #ffd700;
-  font-family: 'Open Sans Hebrew Condensed', serif;
-  font-size: 4em;
-}
+
 #description, #photos, #videos, #contact {
   margin: 20px;
   background-color: #444;
@@ -151,8 +147,88 @@ img.iimg{
   }
 }
 
-@media only screen  and (max-device-width: 1000px) and (orientation: portrait) {
+.banner {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
+  background-position: top;
+  user-select: none;
+  height: 600px;
+  background-position-x: 990px;
 
+}
+
+
+.app {
+  /* Your app styles */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  border: 2px solid darkorange;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  user-select: none;
+}
+
+.close-button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.close-button:hover {
+  background-color: #e64a19;
+}
+
+
+@media  only screen and (min-device-width: 701px) {
+  .carousel-root img {
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2{
+    color: #ffd700;
+    font-family: 'Open Sans Hebrew Condensed', serif;
+    font-size: 4em;
+  }
+}
+
+
+@media only screen and (max-device-width: 700px){
+  .banner{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
+    background-position: top;
+    user-select: none;
+    height: 450px;
+    background-position-x: 990px;
+  }
+  .carousel-root img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 
   .logo{
     float: left;
@@ -165,13 +241,11 @@ img.iimg{
     left: 20px;
     top: 15px;
   }
-  .banner {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
-    background-position: top;
-    user-select: none;
-    height: 600px;
-    background-position-x: 990px;
 
+  h2 {
+    color: #ffd700;
+    font-family: 'Open Sans Hebrew Condensed', serif;
+    font-size: 2em;
   }
 
 }
