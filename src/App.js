@@ -65,10 +65,10 @@ function App() {
   ];
 
   const bankImages = [
-    { url: 'bank1.jpeg' },
-    { url: 'bank2.jpeg' },
-    { url: 'bank3.jpeg' },
-    { url: 'bank4.jpeg' },
+    { url: 'bank1.jpg' },
+    { url: 'bank2.jpg' },
+    { url: 'bank3.jpg' },
+    { url: 'bank4.jpg' },
   ];
 
 
