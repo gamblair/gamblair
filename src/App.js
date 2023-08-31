@@ -85,7 +85,7 @@ function App() {
         <h3 className="animated text-white text-center fadeInUp delay-1s"><br></br>
         <p>חברת תיירות ההימורים הכי חזקה בארץ</p>
         <p>מציעה לכם להצטרף ולהרוויח</p>
-        <p>מחכים לכם בכך החתחומים החל מ:</p>
+        <p>:מחכים לכם בכל החתחומים</p>
         <p>⚽️כדורגל</p>
         <p>🏀כדורסל</p>
         <p>🎾טניס</p>
