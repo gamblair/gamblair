@@ -43,17 +43,17 @@ function App() {
   ];
 
   const RCImages = [
-    { url: 'a1.jpg' },
-    { url: 'a2.jpg' },
-    { url: 'a3.jpg' },
-    { url: 'a4.jpg' },
-    { url: 'a5.jpg' },
-    { url: 'a6.jpg' },
-    { url: 'a7.jpg' },
-    { url: 'a8.jpg' },
-    { url: 'a9.jpg' },
-    { url: 'a10.jpg' },
-    { url: 'a11.jpg' },
+    { url: 'ba1.jpg' },
+    { url: 'ba2.jpg' },
+    { url: 'ba3.jpg' },
+    { url: 'ba4.jpg' },
+    { url: 'ba5.jpg' },
+    { url: 'ba6.jpg' },
+    { url: 'ba7.jpg' },
+    { url: 'ba8.jpg' },
+    { url: 'ba9.jpg' },
+    { url: 'ba10.jpg' },
+    { url: 'ba11.jpg' },
   ];
 
   const revImages = [
