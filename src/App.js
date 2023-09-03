@@ -42,19 +42,19 @@ function App() {
     { url: 'Conv15.png' },
   ];
 
-  const RCImages = [
-    { url: 'ba1.jpg' },
-    { url: 'ba2.jpg' },
-    { url: 'ba3.jpg' },
-    { url: 'ba4.jpg' },
-    { url: 'ba5.jpg' },
-    { url: 'ba6.jpg' },
-    { url: 'ba7.jpg' },
-    { url: 'ba8.jpg' },
-    { url: 'ba9.jpg' },
-    { url: 'ba10.jpg' },
-    { url: 'ba11.jpg' },
-  ];
+  // const RCImages = [
+  //   { url: 'ba1.jpg' },
+  //   { url: 'ba2.jpg' },
+  //   { url: 'ba3.jpg' },
+  //   { url: 'ba4.jpg' },
+  //   { url: 'ba5.jpg' },
+  //   { url: 'ba6.jpg' },
+  //   { url: 'ba7.jpg' },
+  //   { url: 'ba8.jpg' },
+  //   { url: 'ba9.jpg' },
+  //   { url: 'ba10.jpg' },
+  //   { url: 'ba11.jpg' },
+  // ];
 
   const revImages = [
     { url: 'rev1.jpg' },
@@ -62,6 +62,7 @@ function App() {
     { url: 'rev3.jpg' },
     { url: 'rev4.jpg' },
     { url: 'rev5.jpg' },
+    { url: 'rev6.jpg' },
   ];
 
   const bankImages = [
@@ -81,21 +82,16 @@ function App() {
       </header>
       <div className="main-loader"></div>
       <section id="description" className="p-5 text-center text-dark">
-        <h2 className="animated fadeInDown">GamblAir™🎰</h2>
+        <h2 className="animated fadeInDown">ברוכים הבאים לחברת Gamblair🤩</h2>
         <h3 className="animated text-white text-center fadeInUp delay-1s"><br></br>
-        <p>חברת תיירות ההימורים הכי חזקה בארץ</p>
-        <p>מציעה לכם להצטרף ולהרוויח</p>
-        <p>:מחכים לכם בכל החתחומים</p>
-        <p>⚽️כדורגל</p>
-        <p>🏀כדורסל</p>
-        <p>🎾טניס</p>
-        <p>⚾️בייסבול</p>
-        <p>🏈פוטבול אמריקאי</p>
-        <p>🎲קזינו</p>
-        <p>🎰סלוטים</p>
-        <p>🔥היחסים הכי טובים בארץ בבטים🔥</p>
-        <p>💥100% בונוס מינוף בכל הפקדה 💥</p>
-        <h2>🙏🏼מחכים לראות אתכם אצלנו</h2></h3>
+        <p>הגדולים בארץ בתחום המשחקים המקוונים⚽️🏀</p>
+        <p>מוזמנים להצטרף למשפחה ולהנות</p>
+        <p>:ממגוון רחב של אפשרויות חסר תקדים ❗️</p>
+        <p>יושרה ואמינות✅</p>
+        <p>תשלום זכיות מיידי (עד שעתיים)✅</p>
+        <p>מגוון רחב של אתרים בינלאומיים✅</p>
+        <p>יחסים גבוהים ומגוון רחב של אופציות✅</p>
+        <p>כל האפשרויות הפקדה/ משיכה ✅</p></h3>
        
       </section>
 
@@ -119,13 +115,13 @@ function App() {
             <GenericImageCarousel images={winsImages} />
         </div>
       </section>
-
+{/* 
       <section id="videos" className="p-5 text-center text-dark">
         <h2 className="animated fadeInDown"> ✈️מסביב לעולם🌍</h2>
         <div className='slider'>
           <GenericImageCarousel images={RCImages} />
         </div>
-      </section>
+      </section> */}
 
       <a className="mypopup2 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://www.facebook.com/gambleair">לפייסבוק שלנו</a>
       <a className="mypopup1 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://wa.me/+972526417693?text=I'm%20interested%20in%20your%20casino%20services">צרו קשר</a>

@@ -13,7 +13,7 @@ function Popup({ onClose }) {
         <p>⚽🏀כרטיסים למשחקים הכי שווים</p>
         <p>🎮קונסולות וטלפונים</p>
         <h2>!הצטרפו לפני שיהיה מאוחר</h2>
-        <a className=" btn btn-dark btn-lg animated fadeInUp" style={{color: "white"}} href="https://wa.me/+972526417693?text=I'm%20interested%20in%20your%20casino%20services">צרו קשר</a>
+        <a className=" btn btn-success btn-lg animated fadeInUp" style={{color: "white"}} href="https://chat.whatsapp.com/HE0YIxeHvG44AW37cOeO3o">לכניסה מיידית לקבוצה</a>
         <button className="btn close-button btn-lg" onClick={onClose}>
           Close
         </button>
