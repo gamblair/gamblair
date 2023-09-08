@@ -94,7 +94,7 @@ footer {
 }
 
 .mypopup1 {
-  bottom: 100px !important;
+  bottom: 160px !important;
   position: fixed !important; 
   /* You could also try position: fixed !important; here
   if the element should be fixed by screen position
@@ -104,6 +104,17 @@ footer {
   z-index: 5;
 }
 .mypopup2 {
+  bottom: 100px !important;
+  left: 22px;
+  position: fixed !important; 
+  /* You could also try position: fixed !important; here
+  if the element should be fixed by screen position
+  rather than containing element position */
+  top: auto !important;
+  z-index: 5;
+}
+
+.mypopup3 {
   bottom: 40px !important;
   left: 22px;
   position: fixed !important; 
@@ -217,8 +228,26 @@ img.iimg{
   }
 }
 
+:root{
+  overflow-x: hidden;
+}
+div#ttt{
 
+  position: relative;
+  left: 45%;
+}
 @media only screen and (max-device-width: 700px){
+
+  div#ttt{
+
+    position: relative;
+    left: 32%;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
   .banner{
     background-image: linear-gradient(to top, rgba(0,0,0,0.7), transparent),url(backgr.png);
     background-position: top;
@@ -483,8 +512,20 @@ LEVEL 4. SETTINGS
   transform: scale(1.05); /* Slight scale-up effect on hover */
 }
 
-div#ttt{
 
-  position: relative;
-  left: 45%;
+.right-bullet-list {
+  list-style-type: none; /* Remove default bullet style */
+  padding: 0;
+}
+
+.right-bullet-list li {
+  position: relative; /* Required for positioning the bullet */
+  padding-right: 20px; /* Space between the sentence and the bullet */
+}
+
+.right-bullet-list li::before {
+  content: '\2022'; /* Unicode bullet character */
+  position: absolute;
+  right: 0; /* Position the bullet to the right */
+  margin-left: 5px; /* Space between the bullet and the sentence */
 }

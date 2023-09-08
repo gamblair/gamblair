@@ -85,19 +85,20 @@ function App() {
       <section id="description" className="p-5 text-center text-dark">
         <h2 className="animated fadeInDown">כאן חברת ההימורים Gamblair🤩</h2>
         <h3 className="animated text-white text-center fadeInUp delay-1s"><br></br>
-        <p>הגדולים בארץ בתחום הימורי האונליין📍
-ספורט / קזינו לייב / סלוטים 🎰💰</p>
-        <p>עם שירות לקוחות שזמין לך📞 
+        <ul className="right-bullet-list">
+        <li><p>הגדולים בארץ בתחום הימורי האונליין📍
+ספורט / קזינו לייב / סלוטים 🎰💰</p></li>
+<li><p>עם שירות לקוחות שזמין לך📞 
 סוכנים צמודים שנותנים שירות 📲
-ביצוע פעולות מהיר ומקצועי 🤝</p>
-        <p>⚜️אנחנו עובדים עם אתרי ההימורים המובילים בתחום ⚜️</p>
-        <p>יושרה ואמינות✅</p>
-        <p>תשלום זכיות מיידי (עד שעתיים)✅</p>
-        <p>מגוון רחב של אתרים בינלאומיים✅</p>
-        <p>יחסים גבוהים ומגוון רחב של אופציות✅</p>
-        <p>כל האפשרויות הפקדה/ משיכה ✅</p>
-        <p>אנו מעניקים לכם אופציה להרוויח הרבה יותר על הכסף שלכם מאשר בכל מקום אחר!</p>
-        <p>בונוסים על כל הפקדה מעל 300₪ ועד 30% בונוס (הבונוס חוזר במשיכה)</p></h3>
+ביצוע פעולות מהיר ומקצועי 🤝</p></li>
+<li><p>בשיתוף עם אתרי ההימורים המובילים בתחום ⚜️</p></li>
+<p>יושרה ואמינות✅</p>
+<p>תשלום זכיות מיידי (עד שעתיים)✅</p>
+<p>מגוון רחב של אתרים בינלאומיים✅</p>
+<p>יחסים גבוהים ומגוון רחב של אופציות✅</p>
+<p>כל האפשרויות הפקדה/ משיכה ✅</p>
+<li><p>אנו מעניקים לכם אופציה להרוויח הרבה יותר על הכסף שלכם מאשר בכל מקום אחר!</p></li>
+<li><p>בונוסים על כל הפקדה מעל 300₪ ועד 30% בונוס (הבונוס חוזר במשיכה)</p></li></ul></h3>
        
       </section>
 
@@ -130,9 +131,9 @@ function App() {
         </div>
       </section> */}
   
-
-      <a className="mypopup2 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://www.facebook.com/gambleair">לפייסבוק שלנו</a>
-      <a className="mypopup1 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://wa.me/+972526417693?text=I'm%20interested%20in%20your%20casino%20services">צרו קשר</a>
+      <a className="mypopup2 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://www.tiktok.com/@gamble_air" target="_blank">לטיקטוק שלנו</a>
+      <a className="mypopup3 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://www.facebook.com/gambleair" target="_blank">לפייסבוק שלנו</a>
+      <a className="mypopup1 btn btn-dark btn-lg animated fadeInUp delay-2s" href="https://wa.me/+972526417693?text=I'm%20interested%20in%20your%20casino%20services" target="_blank">צרו קשר</a>
 
       <footer className="bg-dark text-white text-center p-3">
         <p>© 2023 All rights reserved To GamblAir™</p>

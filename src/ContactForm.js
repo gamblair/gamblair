@@ -56,16 +56,18 @@ function ContactForm() {
                 <h2 className="animated fadeInDown">🤩צרו קשר והתחילו לשחק</h2>
                 <h3 className="animated text-white text-center fadeInUp delay-1s"><br></br>
                 <h2>בונוסים💸</h2>
-                <p>הפקדה ראשונה 100% בונוס </p>
-                <p>הפקדה שניה 50% בונוס</p>
-                <p>הפקדות קבועות 30% בונוס</p>
+                <ul className='right-bullet-list'>
+                <li><p>הפקדה ראשונה 100% בונוס </p></li>
+                <li><p>הפקדה שניה 50% בונוס</p></li>
+                <li><p>הפקדות קבועות 30% בונוס</p></li>
+                </ul>
                 <h2>משיכות / הפקדות בכל הדרכים אצלנו 💰💲💳🪙</h2>
-                <p>ביט,פייבוקס,מזומן,קוד משיכה,העברה בנקאית מכל הבנקים ,העברה במטבעה דיגיטלי USDT</p>
+                <p>ביט,פייבוקס,מזומן,קוד משיכה,העברה בנקאית מכל הבנקים ,העברה במטבע דיגיטלי USDT</p>
                 <h2>שעות משיכות / הפקדות</h2>
-                <p>משיכות משעה 10:00 עד השעה 23:00
-הפקדות משעה 10:00 עד השעה 1:00
- אין משיכות בשישי שבת 
-משיכה מיידית עד (שעתיים )</p></h3>
+                <p><ul className='right-bullet-list'><li>משיכות משעה 10:00 עד השעה 23:00</li>
+                <li>הפקדות משעה 10:00 עד השעה 1:00</li>
+                <li>אין משיכות בשישי שבת </li>
+                <li>משיכה מיידית עד (שעתיים )</li></ul></p></h3>
             </section>
         {isSubmitted ? (
             <div>
@@ -82,6 +84,7 @@ function ContactForm() {
                 class="field__input"
                 type="text"
                 id="fullName"
+                autocomplete="off"
                 value={fullName}
                 onChange={handleFullNameChange}
                 required
@@ -96,6 +99,7 @@ function ContactForm() {
                 class="field__input"
                 type="tel"
                 id="phoneNumber"
+                autocomplete="off"
                 value={phoneNumber}
                 onChange={handlePhoneNumberChange}
                 required
