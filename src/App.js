@@ -58,12 +58,12 @@ function App() {
   // ];
 
   const revImages = [
-    { url: 'rev1.jpg' },
-    { url: 'rev2.jpg' },
-    { url: 'rev3.jpg' },
-    { url: 'rev4.jpg' },
-    { url: 'rev5.jpg' },
-    { url: 'rev6.jpg' },
+    { url: 'arev1.jpg' },
+    { url: 'arev2.jpg' },
+    { url: 'arev3.jpg' },
+    { url: 'arev4.jpg' },
+    { url: 'arev5.jpg' },
+    { url: 'arev6.jpg' },
   ];
 
   const bankImages = [
